@@ -1,0 +1,103 @@
+.main-header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+.main-header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.main-header_nav ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.dropdown-menu {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.dropdown-menu:hover > .dropdown-list {
+  opacity: 1;
+  transition: 0.3 ease;
+}
+
+.dropdown-list {
+  opacity: 0;
+  position: absolute;
+  top: 50px;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.dropdown-list li {
+  white-space: nowrap;
+}
+
+.hero-section__inner::after {
+  content: url("./../img/trafalgar-header\ illustration\ 1.png");
+}
+
+.main-header_nav ul li:not(:last-child) {
+  margin-right: 40px;
+  width: 50%;
+}
+
+.main-header_nav ul li a {
+  display: inline-block;
+  color: #1f1534;
+  opacity: 0.5;
+  text-decoration: none;
+  -webkit-transition: 0.3 ease;
+  -o-transition: 0.3 ease;
+  transition: 0.3 ease;
+  border-bottom: 1px solid transparent;
+}
+.main-header_nav ul li a.active,
+.main-header_nav ul li a:hover {
+  opacity: 1;
+  border-color: black;
+}
+
+.hero-section__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-section_content,
+.hero-section_image {
+  width: 50%;
+}
+
+.hero-section_content {
+  padding-right: 80px;
+}
+.hero-section_content h2 {
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.hero-section_content p {
+  font-size: 21px;
+  color: #7d7987;
+  margin: 0;
+  margin-bottom: 45px;
+}

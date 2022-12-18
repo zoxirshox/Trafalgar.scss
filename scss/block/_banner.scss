@@ -1,0 +1,74 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+.banner-header {
+  text-align: center;
+  font-size: 36xp;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 56px;
+}
+
+.banner-line {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 56px;
+  height: 2px;
+  margin-bottom: 72px;
+}
+
+.banner-news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.banner-fist,
+.banner-second,
+.banner-last {
+  width: 350px;
+  height: 512px;
+  -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  margin: 0 7px;
+}
+
+.banner-fist h1,
+.banner-second h1,
+.banner-last h1 {
+  font-size: 21px;
+}
+
+.banner-fist p,
+.banner-second p,
+.banner-last p {
+  font-size: 16px;
+  color: rgba(125, 121, 135, 1);
+}
+
+.banner-news a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(64, 137, 237, 1);
+}
+
+.banner-btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 69px;
+  margin-bottom: 201px;
+}

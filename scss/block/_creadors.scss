@@ -1,0 +1,85 @@
+.creadors {
+  background-image: -o-linear-gradient(
+    241.82deg,
+    #67c3f3 9.05%,
+    #5a98f2 76.74%
+  );
+  background-image: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+}
+
+.creadors-heading {
+  color: white;
+  max-width: 522px;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 51px;
+  padding-bottom: 25px;
+}
+
+.creadors-line {
+  width: 56px;
+  height: 2px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.creadors-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.creadors-name {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-top: 97px;
+  color: rgb(255, 255, 255);
+}
+
+.creadors-work {
+  font-size: 18px;
+  margin: 0;
+  padding: 15px;
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.about-creadors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.creadors-img {
+  border: 3px solid white;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 124px;
+  margin-bottom: 80px;
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+}
+
+.creadors-about-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.creadors-say {
+  text-align: center;
+  margin-left: 110px;
+  max-width: 420px;
+  font-size: 19px;
+  margin-bottom: 92px;
+  margin-top: 77px;
+  color: rgba(255, 255, 255, 0.9);
+}

@@ -1,0 +1,89 @@
+@import url("./header.css");
+@import url("./our-servisec.css");
+@import url("./leading.css");
+@import url("./creadors.css");
+@import url("./banner.css");
+@import url("./footer.css");
+@import url("./normalize.css");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", "Robeto", sans-serif;
+  line-height: 1.5;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+.logo {
+  margin: 0;
+}
+
+p {
+  font-weight: 300;
+}
+
+.main-header {
+  padding: 30px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 55px;
+  font-size: 18px;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.btn-primry {
+  border: 1px solid #458ff6;
+  background-color: #458ff6;
+  color: white;
+}
+
+.btn-primry:hover {
+  border: 1px solid #458ff6;
+  background-color: white;
+  color: #458ff6;
+}
+
+.btn-secondory {
+  border: 1px solid #458ff6;
+  background-color: white;
+  color: #458f f6;
+}
+
+.btn-secondory:hover {
+  border: 1px solid #458ff6;
+  background-color: #458ff6;
+  color: white;
+}
